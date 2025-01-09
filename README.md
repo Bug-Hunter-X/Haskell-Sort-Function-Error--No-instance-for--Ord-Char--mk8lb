@@ -1,0 +1,3 @@
+This example demonstrates a common error in Haskell when using the `sort` function from `Data.List`. The `sort` function requires an `Ord` instance for the data type being sorted. This means the type must have a defined ordering (less than, greater than, etc.).
+
+The `bug.hs` file shows the error occurring when attempting to sort a list of `Char` without an explicit `Ord` instance. The solution shows how to correct this error. 
